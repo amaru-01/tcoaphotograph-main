@@ -1,0 +1,11 @@
+// Cloudflare Workers static-assets config (replaces Netlify).
+// Deploy:  npx wrangler deploy        Preview locally:  npx wrangler dev
+{
+  "name": "tcoaphotography",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./",
+    // /about serves about.html; /about.html redirects to /about
+    "html_handling": "auto-trailing-slash"
+  }
+}

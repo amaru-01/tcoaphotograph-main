@@ -1,0 +1,26 @@
+# AI skill folders and the files they generate
+.claude/
+.agents/
+.cursor/
+.impeccable/
+graphify-out/
+PRODUCT.md
+DESIGN.md
+
+# Full-size camera originals (keep a backup elsewhere). The .webp files in images/ stay tracked.
+images/originals/
+
+# Cloudflare / Node
+.wrangler/
+node_modules/
+.dev.vars
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/

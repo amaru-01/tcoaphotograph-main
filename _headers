@@ -1,0 +1,11 @@
+# Browser caching rules for Cloudflare.
+# Photos: cached 30 days. If you replace a photo, give it a new file name
+# (e.g. g5-v2.webp) so visitors get the new one straight away.
+/images/*
+  Cache-Control: public, max-age=2592000
+
+# CSS/JS: cached 1 hour, then refreshed in the background
+/css/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+/js/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400

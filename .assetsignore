@@ -1,0 +1,20 @@
+# Files Cloudflare should NOT upload to the live site.
+# (The site is served from the project root, so everything else is public.)
+
+# full-size camera originals - only the .webp versions go live
+images/originals/
+
+# tooling, config and notes
+scripts/
+wrangler.jsonc
+.assetsignore
+.gitignore
+.wrangler/
+node_modules/
+README.md
+*.md
+
+# AI / skill tooling
+.claude/
+.agents/
+graphify-out/
