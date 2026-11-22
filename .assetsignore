@@ -10,6 +10,8 @@ wrangler.jsonc
 .assetsignore
 .gitignore
 .wrangler/
+.git/
+.github/
 node_modules/
 README.md
 *.md
@@ -18,3 +20,4 @@ README.md
 .claude/
 .agents/
 graphify-out/
+.impeccable/
